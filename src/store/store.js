@@ -8,7 +8,7 @@ Vue.use(Vuex)
 var store = new Vuex.Store({
     state: {
         // 用于请求公共数据接口申请的一个key
-        Data_Api_KEY: '72821055dd0ced0141c8f4768aee5f6a', 
+        Data_Api_KEY: '', 
         // 请求综合新闻的url
         Data_GeneralNews_URL: 'https://apis.tianapi.com/generalnews/index',
         // 请求新闻正文的url
@@ -16,7 +16,7 @@ var store = new Vuex.Store({
 
         
         // chatgpt的key
-        Chat_Api_KEY: 'Bearer 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',
+        Chat_Api_KEY: '',
         // chatgpt的url
         Chat_Api_URL: 'https://wangjiayang.com.cn/v1/chat/completions'
         
